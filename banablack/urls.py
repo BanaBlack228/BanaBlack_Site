@@ -1,7 +1,8 @@
 from django.urls import path
-from banablack.views import main_page
+from . import views
 
 app_name = 'banablack'
 urlpatterns = [
-    path('', main_page, name='main_page'),
+    path('album/', views.album, name='album'),
+    path('', views.main_page, name='main_page'),
 ]
