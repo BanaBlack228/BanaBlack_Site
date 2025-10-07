@@ -672,7 +672,7 @@ section
 	-o-transform: rotate(45deg);
 	transform: rotate(45deg);
 	background: #008c8c;
-	opacity: 0.8;
+	opacity:
 	width: 200%;
 	height: 200%;
 	z-index: 1;

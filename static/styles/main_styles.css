@@ -380,6 +380,8 @@ section
 	padding-right: 23px;
 	z-index: 1;
 }
+
+
 .main_nav ul li a::after
 {
 	display: block;

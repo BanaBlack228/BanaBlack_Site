@@ -7,4 +7,8 @@ def main_page(request):
 def album(request):
     context = {"title": "Альбомы"}
     return render(request, 'album.html', context=context)
+
+def blog(request):
+    context = {"title": "Альбомы"}
+    return render(request, 'blog.html', context=context)
 # Create your views here.
