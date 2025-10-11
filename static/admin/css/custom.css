@@ -1,0 +1,57 @@
+/* Кастомные стили для админки BanaBlack */
+#header {
+    background: #2c3e50;
+    color: #008c8c;
+}
+
+#branding h1 {
+    color: #008c8c;
+}
+
+#branding h1 a {
+    color: #008c8c;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.module h2, .module caption, .inline-group h2 {
+    background: #34495e;
+}
+
+div.breadcrumbs {
+    background: #34495e;
+}
+
+.button, input[type=submit], input[type=button], .submit-row input, a.button {
+    background: #3498db;
+}
+
+.button:hover, input[type=submit]:hover, input[type=button]:hover {
+    background: #2980b9;
+}
+
+.custom-welcome {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border-left: 4px solid #3498db;
+}
+
+.custom-login {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+#custom-footer {
+    text-align: center;
+    padding: 10px;
+    background: #f8f9fa;
+    border-top: 1px solid #dee2e6;
+    margin-top: 20px;
+}

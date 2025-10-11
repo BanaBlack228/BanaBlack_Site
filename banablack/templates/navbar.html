@@ -1,0 +1,31 @@
+{% load static %}
+<!-- Header -->
+	<header class="header">
+		<div class="header_content d-flex flex-row align-items-center justify-content-center">
+			<div class="logo"><a href="{% static 'images/_LOGO_PNG_WHITE_.png' %}"></a></div>
+			<div class="log_reg">
+				<ul class="d-flex flex-row align-items-start justify-content-start">
+					<li><a href="#">LOGIN</a></li>
+					<li><a href="#">REGISTER</a></li>
+				</ul>
+			</div>
+			<nav class="main_nav">
+				<ul class="d-flex flex-row align-items-start justify-content-start">
+					<li><a href="{% url 'banablack:main-page' %}">HOME</a></li>
+					<li class="active"><a href="{% url 'banablack:album' %}">LIBRARY</a></li>
+                    <div class="music_test">
+					    <li ><a href="#">SHOP</a></li>
+                    </div>
+					<li><a href="#">NEWS</a></li>
+					<li><a href="{% url 'banablack:contact' %}">CONTACT</a></li>
+				</ul>
+			</nav>
+			<div class="hamburger ml-auto">
+				<div class="d-flex flex-column align-items-end justify-content-between">
+					<div></div>
+					<div></div>
+					<div></div>
+				</div>
+			</div>
+		</div>
+	</header>

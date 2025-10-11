@@ -1,0 +1,15 @@
+{% extends "admin/base.html" %}
+{% load static i18n %}
+
+{% block blockbots %}
+{{ block.super }}
+<!-- Дополнительные мета-теги -->
+{% endblock %}
+
+{% block footer %}
+{{ block.super }}
+<!-- Кастомный футер -->
+<div id="custom-footer">
+    <p>&copy; 2024 BanaBlack. Все права защищены.</p>
+</div>
+{% endblock %}

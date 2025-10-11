@@ -1,0 +1,325 @@
+{% extends 'banablack/base.html' %}
+{% load static %}
+{% block content %}
+<head>
+<link rel="stylesheet" type="text/css" href="{% static 'styles/bootstrap-4.1.2/bootstrap.min.css' %}">
+<link href="{% static 'plugins/font-awesome-4.7.0/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="{% static 'plugins/OwlCarousel2-2.2.1/owl.carousel.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'plugins/OwlCarousel2-2.2.1/owl.theme.default.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'plugins/OwlCarousel2-2.2.1/animate.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'styles/blog.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'styles/blog_responsive.css' %}">
+</head>
+<body>
+<!-- Blog -->
+
+	<div class="blog">
+		<div class="container">
+			<div class="row">
+
+				<!-- Blog Posts -->
+				<div class="col-lg-9">
+					<div class="blog_posts">
+
+                         <!-- Blog Post 9 -->
+						<div class="blog_post">
+							<div class="blog_post_date d-flex flex-column align-items-center justify-content-center">
+								<div>August</div>
+								<div>12</div>
+								<div>2024</div>
+							</div>
+							<div class="blog_post_image"><img src="{% static 'images/blog_2.jpg' %}" alt="https://unsplash.com/@stevenerixon"></div>
+							<div class="blog_post_title"><h2><a href="#">He's second!</a></h2></div>
+							<div class="blog_post_info">
+								<ul class="d-flex flex-row align-items-start justify-content-start">
+									<li>by <a href="#">Admin</a></li>
+									<li><a href="#">2 Comments</a></li>
+								</ul>
+							</div>
+							<div class="blog_post_text">
+								<p>Well, here is my second favorite track, a wonderful Remix, very Deep House.</p>
+							</div>
+						</div>
+
+                         <!-- Blog Post 8 -->
+						<div class="blog_post">
+							<div class="blog_post_date d-flex flex-column align-items-center justify-content-center">
+								<div>July</div>
+								<div>19</div>
+								<div>2024</div>
+							</div>
+							<div class="blog_post_image"><img src="{% static 'images/blog_2.jpg' %}" alt="https://unsplash.com/@stevenerixon"></div>
+							<div class="blog_post_title"><h2><a href="#">Hooray, Summer!</a></h2></div>
+							<div class="blog_post_info">
+								<ul class="d-flex flex-row align-items-start justify-content-start">
+									<li>by <a href="#">Admin</a></li>
+									<li><a href="#">2 Comments</a></li>
+								</ul>
+							</div>
+							<div class="blog_post_text">
+								<p>Summer EDM Track, haven't heard it yet :)</p>
+							</div>
+						</div>
+
+                        <!-- Blog Post 8 -->
+						<div class="blog_post">
+							<div class="blog_post_date d-flex flex-column align-items-center justify-content-center">
+								<div>May</div>
+								<div>21</div>
+								<div>2024</div>
+							</div>
+							<div class="blog_post_image"><img src="{% static 'images/blog_2.jpg' %}" alt="https://unsplash.com/@stevenerixon"></div>
+							<div class="blog_post_title"><h2><a href="#">What is this Feat?</a></h2></div>
+							<div class="blog_post_info">
+								<ul class="d-flex flex-row align-items-start justify-content-start">
+									<li>by <a href="#">Admin</a></li>
+									<li><a href="#">2 Comments</a></li>
+								</ul>
+							</div>
+							<div class="blog_post_text">
+								<p>It happened that I recorded my first "feat." with a top Drum And Bass producer and cool DJ @MikeTee.</p>
+							</div>
+						</div>
+
+                         <!-- Blog Post 7 -->
+						<div class="blog_post">
+							<div class="blog_post_date d-flex flex-column align-items-center justify-content-center">
+								<div>January</div>
+								<div>15</div>
+								<div>2024</div>
+							</div>
+							<div class="blog_post_image"><img src="{% static 'images/blog_2.jpg' %}" alt="https://unsplash.com/@stevenerixon"></div>
+							<div class="blog_post_title"><h2><a href="#">What if from Rock to House?</a></h2></div>
+							<div class="blog_post_info">
+								<ul class="d-flex flex-row align-items-start justify-content-start">
+									<li>by <a href="#">Admin</a></li>
+									<li><a href="#">2 Comments</a></li>
+								</ul>
+							</div>
+							<div class="blog_post_text">
+								<p>I've been toying with the idea for a long time of making a remix of two of my favorite tracks. One is now, the other will be ready later :) </p>
+							</div>
+						</div>
+
+                        <!-- Blog Post 6 -->
+						<div class="blog_post">
+							<div class="blog_post_date d-flex flex-column align-items-center justify-content-center">
+								<div>September</div>
+								<div>23</div>
+								<div>2023</div>
+							</div>
+							<div class="blog_post_image"><img src="{% static 'images/blog_2.jpg' %}" alt="https://unsplash.com/@stevenerixon"></div>
+							<div class="blog_post_title"><h2><a href="#">A Productive Year!</a></h2></div>
+							<div class="blog_post_info">
+								<ul class="d-flex flex-row align-items-start justify-content-start">
+									<li>by <a href="#">Admin</a></li>
+									<li><a href="#">2 Comments</a></li>
+								</ul>
+							</div>
+							<div class="blog_post_text">
+								<p>This year, I've been working very productively on projects and I've saved up two whole albums :) </p>
+							</div>
+						</div>
+
+                         <!-- Blog Post 5  -->
+						<div class="blog_post">
+							<div class="blog_post_date d-flex flex-column align-items-center justify-content-center">
+								<div>December</div>
+								<div>28</div>
+								<div>2022</div>
+							</div>
+							<div class="blog_post_image"><img src="{% static 'images/blog_2.jpg' %}" alt="https://unsplash.com/@stevenerixon"></div>
+							<div class="blog_post_title"><h2><a href="#">A bit of the East</a></h2></div>
+							<div class="blog_post_info">
+								<ul class="d-flex flex-row align-items-start justify-content-start">
+									<li>by <a href="#">Admin</a></li>
+									<li><a href="#">2 Comments</a></li>
+								</ul>
+							</div>
+							<div class="blog_post_text">
+								<p>I really wanted to make an oriental track, and I did it. For the cover, we held a meeting with fans, where they drew pictures on the wall of a supermarket, and this became the cover of the track.</p>
+							</div>
+						</div>
+
+                        <!-- Blog Post 4 -->
+						<div class="blog_post">
+							<div class="blog_post_date d-flex flex-column align-items-center justify-content-center">
+								<div>December</div>
+								<div>10</div>
+								<div>2022</div>
+							</div>
+							<div class="blog_post_image"><img src="{% static 'images/blog_2.jpg' %}" alt="https://unsplash.com/@stevenerixon"></div>
+							<div class="blog_post_title"><h2><a href="#">Forgotten Old</a></h2></div>
+							<div class="blog_post_info">
+								<ul class="d-flex flex-row align-items-start justify-content-start">
+									<li>by <a href="#">Admin</a></li>
+									<li><a href="#">2 Comments</a></li>
+								</ul>
+							</div>
+							<div class="blog_post_text">
+								<p>Um, I started the project by changing my nickname from "BlackBerry" to "BanaBlack".<br>
+                                    The story is very interesting!.<br>
+                                    It's the end of summer. I'm putting together a bunch of different tracks, and I decided to change my nickname and start posting proper music content.<br>
+                                    I met with the already familiar you "@cactusvkadre" to discuss projects and future plans.<br>
+                                    Then I approached a friend: "I want to change my nickname to something else, but I can't think of one. The idea is that I want two capital letters, BB, a nickname, and a prefix, like in my previous nickname."<br>
+                                    Without thinking twice, my friend came up with a ridiculous idea: "Whatever the first word we see that starts with B, it will be!".<br>
+                                    I agreed. We left the office and were just walking down the street when we came across an old garage covered in graffiti. And, damn it, a single word, and you won't believe it, it was the word with this letter!.<br>
+                                    This is how my nickname came about!.</p>
+							</div>
+						</div>
+
+                        <!-- Blog Post 3 -->
+						<div class="blog_post">
+							<div class="blog_post_date d-flex flex-column align-items-center justify-content-center">
+								<div>November</div>
+								<div>20</div>
+								<div>2022</div>
+							</div>
+							<div class="blog_post_image"><img src="{% static 'images/blog_2.jpg' %}" alt="https://unsplash.com/@stevenerixon"></div>
+							<div class="blog_post_title"><h2><a href="#">Well, where would we be without cinema?</a></h2></div>
+							<div class="blog_post_info">
+								<ul class="d-flex flex-row align-items-start justify-content-start">
+									<li>by <a href="#">Admin</a></li>
+									<li><a href="#">2 Comments</a></li>
+								</ul>
+							</div>
+							<div class="blog_post_text">
+								<p>The idea was to make a track for a fantasy-mystical music video, but it never came out!<br>
+                                    We decided to put the video on hold :(<br>
+                                    Just listen and see what comes to mind?<br>
+                                    You can get my idea just by looking at the cover :)<br>
+                                    I hope we'll still make it someday.</p>
+							</div>
+						</div>
+
+                        <!-- Blog Post 2 -->
+						<div class="blog_post">
+							<div class="blog_post_date d-flex flex-column align-items-center justify-content-center">
+								<div>October</div>
+								<div>19</div>
+								<div>2022</div>
+							</div>
+							<div class="blog_post_image"><img src="{% static 'images/blog_2.jpg' %}" alt="https://unsplash.com/@stevenerixon"></div>
+							<div class="blog_post_title"><h2><a href="#">The track that marked the beginning of a career!</a></h2></div>
+							<div class="blog_post_info">
+								<ul class="d-flex flex-row align-items-start justify-content-start">
+									<li>by <a href="#">Admin</a></li>
+									<li><a href="#">2 Comments</a></li>
+								</ul>
+							</div>
+							<div class="blog_post_text">
+								<p>The track has an interesting story! It symbolizes the beginning of my close friend "@cactusvkadre"'s journey, and mine as well. This rather sad track is my gift to him, because he, "Alone," always believed in me and followed me on this difficult journey. Thank you, friend!</p>
+							</div>
+						</div>
+
+						<!-- Blog Post 1 -->
+						<div class="blog_post">
+							<div class="blog_post_date d-flex flex-column align-items-center justify-content-center">
+								<div>July</div>
+								<div>13</div>
+								<div>2021-2022</div>
+							</div>
+							<div class="blog_post_image"><img src="{% static 'images/blog_2.jpg' %}" alt="https://unsplash.com/@stevenerixon"></div>
+							<div class="blog_post_title"><h2><a href="#">Here it is, my first Album!</a></h2></div>
+							<div class="blog_post_info">
+								<ul class="d-flex flex-row align-items-start justify-content-start">
+									<li>by <a href="#">Admin</a></li>
+									<li><a href="#">2 Comments</a></li>
+								</ul>
+							</div>
+							<div class="blog_post_text">
+								<p>Well, dear listener, I am pleased to present to you my first album, with the same name. It includes 4 compositions: 2 original songs and 2 remixes. Enjoy listening and come support on the platform.</p>
+							</div>
+						</div>
+
+					</div>
+					<div class="load_more">
+						<div class="button"><a href="#">Load More</a></div>
+					</div>
+				</div>
+
+				<!-- Sidebar -->
+				<div class="col-lg-3">
+					<div class="sidebar">
+						<div class="sidebar_section">
+							<div class="sidebar_title">Archive</div>
+							<div class="sidebar_list">
+								<ul>
+									<li><a href="#">2021</a></li>
+									<li><a href="#">2022</a></li>
+									<li><a href="#">2023</a></li>
+									<li><a href="#">2024</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="sidebar_section">
+							<div class="sidebar_title">Categories</div>
+							<div class="sidebar_list">
+								<ul>
+									<li><a href="#">Audio</a></li>
+									<li><a href="#">News</a></li>
+									<li><a href="#">Photos</a></li>
+									<li><a href="#">Releases</a></li>
+									<li><a href="#">Uncategorized</a></li>
+									<li><a href="#">Video</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="sidebar_section">
+							<div class="sidebar_title">Latest News</div>
+							<div class="latest_news_list">
+
+								<!-- Latest News -->
+								<div class="latest_news d-flex flex-row align-items-start justify-content-start">
+									<div class="latest_news_image"><img src="images/latest_1.jpg" alt="https://unsplash.com/@dannykekspro"></div>
+									<div class="latest_news_content">
+										<div class="latest_news_date"><a href="#">July 26, 2018</a></div>
+										<div class="latest_news_title"><a href="#">How to get the best playlist</a></div>
+									</div>
+								</div>
+
+								<!-- Latest News -->
+								<div class="latest_news d-flex flex-row align-items-start justify-content-start">
+									<div class="latest_news_image"><img src="images/latest_2.jpg" alt="https://unsplash.com/@rexcuando"></div>
+									<div class="latest_news_content">
+										<div class="latest_news_date"><a href="#">July 26, 2018</a></div>
+										<div class="latest_news_title"><a href="#">How to get the best playlist</a></div>
+									</div>
+								</div>
+
+								<!-- Latest News -->
+								<div class="latest_news d-flex flex-row align-items-start justify-content-start">
+									<div class="latest_news_image"><img src="images/latest_3.jpg" alt="https://unsplash.com/@arstyy"></div>
+									<div class="latest_news_content">
+										<div class="latest_news_date"><a href="#">July 26, 2018</a></div>
+										<div class="latest_news_title"><a href="#">How to get the best playlist</a></div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+<script src="{% static 'js/jquery-3.2.1.min.js' %}"></script>
+<script src="{% static 'styles/bootstrap-4.1.2/popper.js' %}"></script>
+<script src="{% static 'styles/bootstrap-4.1.2/bootstrap.min.js' %}"></script>
+<script src="{% static 'plugins/greensock/TweenMax.min.js' %}"></script>
+<script src="{% static 'plugins/greensock/TimelineMax.min.js' %}"></script>
+<script src="{% static 'plugins/scrollmagic/ScrollMagic.min.js' %}"></script>
+<script src="{% static 'plugins/greensock/animation.gsap.min.js' %}"></script>
+<script src="{% static 'plugins/greensock/ScrollToPlugin.min.js' %}"></script>
+<script src="{% static 'plugins/OwlCarousel2-2.2.1/owl.carousel.js' %}"></script>
+<script src="{% static 'plugins/easing/easing.js' %}"></script>
+<script src="{% static 'plugins/progressbar/progressbar.min.js' %}"></script>
+<script src="{% static 'plugins/parallax-js-master/parallax.min.js' %}"></script>
+<script src="{% static 'plugins/jPlayer/jquery.jplayer.min.js' %}"></script>
+<script src="{% static 'plugins/jPlayer/jplayer.playlist.min.js' %}"></script>
+<script src="{% static 'js/blog.js' %}"></script>
+</body>
+</html>
+{% endblock content %}

@@ -1,0 +1,27 @@
+# Медиа файлы
+media/
+uploads/
+static/images/Video.mp4
+*.mp4
+*.avi
+*.mov
+
+# Файлы базы данных
+*.sqlite3
+*.db
+
+# Файлы окружения
+.env
+.env.local
+.secrets
+
+# Питон
+__pycache__/
+*.py[cod]
+*.so
+.Python
+.env.*
+.venv
+
+# Логи
+*.log
